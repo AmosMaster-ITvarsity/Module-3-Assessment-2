@@ -1,0 +1,672 @@
+/*====================== MAIN PAGE =================*/
+
+html{
+    height: 100%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.main-rest{
+        background-image: url(images/background-2-port.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: bottom;
+        background-attachment: fixed;
+}
+
+.img-logo{
+    padding-left: 12px;
+    margin-top: -12px;
+}
+
+.contain, button{
+    text-transform: uppercase;
+    font-size: 21px;
+    float: right;
+    padding: 5px;
+    font-family: sans-serif;
+    margin-top: 68px;
+    margin-right: 16px;
+    background: transparent;
+    color: white;
+    border-bottom-color: #E3E0D9;
+    border-radius: 12px;
+    display: block;
+}
+
+.contain, button:hover{
+    background: #f8a811;
+    color: white;
+    
+}
+
+.nav {
+    display: inline-block;
+    width: 100%;
+    margin: auto;
+    padding-top: 99px;   
+}
+
+.nav a{
+    justify-content: space-between;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    color: orange;
+    font-family: serif;
+    font-size: 35px;
+}
+
+.navigation p{
+    border-bottom: 3px solid white;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    width: 50%;
+    margin: auto;
+}
+
+.navigation p:hover{
+    color: orange;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    background: rgba(255, 255, 225, 0.2);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    
+}
+
+.nav .navigation-1{
+    color: white;
+    position: absolute;
+    bottom: 81px;
+    text-transform: none;
+    left: 160px;
+    
+}
+
+/*====================== BREAKFAST PAGE =================*/
+
+.body-content{
+    background: gray;
+}
+
+.heading h1{
+    float: right;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    position: absolute;
+    top: 70px;
+    right: 40px;
+    left: 240px;
+    border-radius: 12px;
+    text-transform: uppercase;
+    font-size: 35px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+
+.heading {
+    display: block;
+    height: 25%;
+    padding: 12px;
+    background-image: url(images/coffee-background-1.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    z-index: 500;  
+}
+
+.logo i{
+    position: absolute;
+    color: black;
+    font-size: 30px;
+    right: 65px;
+    top: 155px;
+
+}
+
+.breakfast-menu{
+    position: absolute;
+    top: 30%;
+    left: 80px;
+    display: grid;
+}
+
+.breakfast-menu-item{
+
+    border-top: 2px solid orange;
+    border-left: 2px solid orange;
+    border-radius: 20px;
+    padding-bottom: -12px;
+}
+
+.breakfast-menu-item img{
+    position: relative;
+    bottom: 10px;
+}
+
+.breakfast-menu-item p{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.breakfast-menu-item i{
+    position: relative;
+    left: 30%;
+    font-size: 21px;
+    color: orange;
+    top: -50px;
+}
+.breakfast-menu-item b{
+    position: relative;
+    left: 62px;
+    font-size: 21px;
+    color: orange;
+    top: -50px;
+}
+
+.breakfast-menu-item h4{
+    position: relative;
+    top: -80px;
+    left: 15px;
+    font-size: 21px;
+}
+
+.breakfast-menu-item h5{
+    position: relative;
+    left: 15px;
+    font-size: 12px;
+    top: inherit;
+}
+
+.breakfast-menu-item u{
+    float: right;
+    text-decoration: none;
+    position: relative;
+    left: -50px;
+}
+
+.breakfast-menu-item button{
+    text-transform: capitalize;
+    position: relative;
+    top: -40px;
+    right: 70px;
+    padding: 1px;
+    background-color: white;
+    color: green;
+  
+}
+.breakfast-menu-item button:hover{
+    background-color: green;
+    color: white;
+    
+}
+
+.breakfast-menu-item i:hover{
+    color: black;
+}
+
+.breakfast-menu-item:hover{
+    background: ;
+    color: black; 
+}
+
+
+
+/* ================== END OF BREAKFAST PAGE ===========*/
+
+/*===================== PRODUCT PAGE ==================*/
+
+.items{
+    position: relative;
+    top: 10%;
+}
+
+.items img{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 170px;
+    left: 39px;
+    border-radius: 12px;
+}
+
+
+.logo{
+    display: block;
+    height: 25%;
+    padding: 12px;
+    background-image: url(images/product-background-land.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    position: fixed;
+    width: 100%;
+    z-index: 500;  
+}
+
+.logo h1{
+    float: left;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: -1px 2px orange;
+    font-size: 40px;
+    color: black;
+    position: absolute;
+    bottom: 50px;
+    left: 250px;
+}
+
+.list-items{
+    
+    position: absolute;
+    left: 125px;
+    top: 560px;
+}
+
+.list-items h2{
+    text-transform: uppercase;
+    font-size: 35px;
+    text-shadow: -1px 2px orange;
+}
+
+.text-box{
+    position: absolute;
+    top: 850px;
+    left: 65px;
+}
+
+.text-box h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: -1px 2px orange; 
+}
+
+.items button{
+    position: absolute;
+    top: 275%;
+    left: 135px;
+    background: green;
+}
+
+.butn{
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    top: 175%;
+}
+
+/*=============== RECEIVED PAGE ===============*/
+
+#received h1{
+    width: 100%;
+    text-align: center;
+    text-shadow: 2px 2px 2px white;
+    color: orange;
+    font-size: 60px;
+    
+}
+
+#received img{
+    position: absolute;
+    left: 32px;
+    top: 250px;
+}
+
+#received h2{
+    text-align: center;
+    color: white;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+/*================= THANK YOU PAGE ==============*/
+
+.received-background{
+    
+    background-image: url(images/received-land.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+/*================ CONTACT US PAGE ==============*/
+
+
+#handles{
+    margin: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-us{
+        background-image: url(images/wallpaper-1.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+}
+
+#socials{
+    position: absolute;
+    bottom: 150px;
+}
+
+#socials table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#socials h2{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+}
+
+.feedback h2{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+}
+
+ table tr th i{
+    color: orange;
+    font-size: 34px;
+    padding-left: 4px;
+}
+
+.feedback table tr th i{
+    color: orange;
+    font-size: 34px;
+    padding-left: 4px;
+}
+
+.feedback table tr td{
+    color: white;
+    padding-right: 21px;
+    
+}
+
+.pic-contact img{
+       position: absolute;
+        left: 140px; 
+    }
+.feedback table{
+    position: absolute;
+    left: 45px;
+}
+
+/*================ REASERVE PAGE =============*/
+
+.reserve-seat{
+    color: white;
+    left: 25px;
+}
+
+.reserve-seat h1{
+    color: orange;
+    text-align: center;
+    text-shadow: 3px 1px black; 
+    text-transform: uppercase;
+}
+
+.reserve-seat form label{
+    text-transform: uppercase;
+    margin-left: 60px;
+}
+
+.reserve-seat form input{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 14px;
+    width: 80%;
+    margin-left: 41px;
+    margin-top: 21px;
+    
+}
+
+.reserve-seat form button{
+    position: absolute;
+    bottom: 29px;
+    left: 180px;
+}
+
+/*================= MEADIA QUIRIES ==============*/
+
+@media only screen and (min-width: 590px){
+
+    .list-items{
+        left: 250px;
+    }
+    .item-1 img{
+        left: 140px;
+    }
+    .text-box{
+        top: 860px;
+        left: 140px;
+    }
+    .items button{
+        top: 1120px;
+        left: 220px;
+    }
+    
+    #received img{
+    left: 312px;
+    
+    }
+    
+    .feedback table  {
+        position: relative;
+        left: 67px;
+    }
+    
+    .nav .navigation-1{
+        left: 360px;
+    }
+    
+    #socials{
+    left: 67px;
+    }
+    
+    
+
+}
+
+
+@media only screen and (min-width: 690px){
+    
+/*====================== PRODUCT PAGE ====================*/
+    
+.list-items{
+    position: absolute;
+    left: 500px;
+    top: 150px;
+    }
+    
+.item-1 img{
+        left: 39px;
+    }
+    
+.list-items h2{
+        font-size: 40px;   
+    }
+    
+ .text-box{
+        top: 560px;
+    }    
+    
+    .items button{
+        top: 850px;
+    }
+    
+    .butn{
+        top: 1100px;
+    }
+    
+    .logo i{
+        top: 95px;
+        color: white;
+    }
+
+}
+
+
+@media only screen and (min-width: 1100px){
+   
+
+/*===================== MAIN PAGE ================*/
+    
+.nav{
+        padding-top: 9px;
+    }
+    
+.navigation p{
+        font-family: sans-serif;
+        color: white;
+        border-bottom: 3px solid orange;
+    }
+    
+    
+.logo-center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-top: -5%;    
+    }
+    
+.contain, button{
+        margin-right: 25px;
+    }
+    
+.main-rest{
+    background-image: url(images/background-2-land.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+   
+    }
+
+/*===================== BREAKFAST PAGE ================*/
+    
+.heading {
+    background-position: center;
+    }
+    
+.heading h1{
+        left: 30%;
+        right: 20%;
+    }
+    
+.breakfast-menu{    
+        display: flex;
+        top: 30%;
+        left: 120px;
+    }
+    
+.breakfast-menu-item{
+         margin-right: 21px;
+    }
+    
+    .logo i{
+        top: 95px;
+        color: black;
+    }
+    
+/*====================== PRODUCT PAGE ====================*/
+    
+
+.logo h1{
+    
+    top: 50px;
+    left: 500px;
+    font-size: 50px;      
+    }
+    
+.logo{
+    
+    background-position: bottom;
+    
+    }
+    
+.list-items{
+    position: absolute;
+    left: ;
+    top: 150px;
+}
+
+.text-box{
+    position: absolute;
+    top: 160px;
+    left: 850px;
+}
+
+.text-box h1{
+        font-size: 40px;
+    }
+
+.items button{
+        left: 45%;
+        top: 110%;
+    }
+.butn{
+    top:-100px;
+    }
+    
+     #received img{
+    left: 551px;
+    
+}
+    .nav .navigation-1{
+        left: 660px;
+        text-transform: uppercase;
+    }
+    
+    .contact-us{
+        background-image: url(images/wallpaper.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+      #socials{
+        left: 397px;
+    }
+    
+        .feedback table  {
+        position: relative;
+        left: 550px;
+    }
+    
+    .pic-contact img{
+        left: 640px; 
+    }
+    
+    .reserve-seat form input{
+        width: 50%;
+    }
+    
+    .reserve-seat form button{
+        left: 750px;
+    }
+}
+
+
